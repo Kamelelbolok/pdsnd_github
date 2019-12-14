@@ -104,9 +104,7 @@ def get_filters():
 def load_data(city, month, day):
     """
     Below is the script that will help analyze the data that user selected
-
     Loads data for the specified city and filters by month and day if applicable.
-
     Args:
         (str) city - name of the city to analyze
         (str) month - name of the month to filter by, or "no" to apply no month filter
@@ -173,8 +171,6 @@ def station_stats(df):
     popular_end_station = df['End Station'].mode()[0]
     end_stations_count = df['End Station'].value_counts()
     print('Most Common End Station :{} , count: {} '.format(popular_end_station , end_stations_count[popular_end_station]))
-
-
     # TO DO: display most frequent combination of start station and end station trip
     df['Trip'] ='Start: '+ df['Start Station'] +' , ' +'End: '+ df['End Station']
     popular_trip = df['Trip'].mode()[0]
@@ -200,7 +196,6 @@ def trip_duration_stats(df):
     sum_hours = td_sum//3600%60
     sum_days = td_sum//24//3600
     print('Passengers travelled a total of {} days, {} hours, {} minutes and {} seconds'.format(sum_days, sum_hours, sum_minutes, sum_seconds))
-
     #display mean travel time
     print()
     td_mean = math.ceil(df['Trip Duration'].mean())
