@@ -103,6 +103,8 @@ def get_filters():
 
 def load_data(city, month, day):
     """
+    Below is the script that will help analyze the data that user selected
+
     Loads data for the specified city and filters by month and day if applicable.
 
     Args:
