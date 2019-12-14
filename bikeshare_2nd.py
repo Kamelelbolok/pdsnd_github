@@ -281,7 +281,7 @@ def display_data(df):
             else:
                 print('You did not enter a valid choice.')
                 return
-
+""" The below code is for the exit messages that should pop up after displaying the statistics results"""
 def main():
     while True:
         city, month, day = get_filters()

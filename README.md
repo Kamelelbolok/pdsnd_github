@@ -9,8 +9,18 @@ This project provides statstics for bikeshare system that being used by Diviy Co
 New york City and Chicago.
 
 ### Files used
-Include the files used
+The files used are csv files for 6 month data for each city
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Udacity 
+
+Github
+
+Python Documentation
+
+Anaconda Documentation
+
+Atom Code Editor
+
+
 
